@@ -18,7 +18,7 @@ def bfs(x,y):
 t = int(sys.stdin.readline())
 for _ in range(t):
     cnt = 0
-    m,n,k = map(int,sys.stdin.readline().split())
+    m,n,k = map(int,sys.stdin.readline().split())   
     graph = [[0] * m for i in range(n)]
     for i in range(k):
         x, y = map(int,sys.stdin.readline().split())
