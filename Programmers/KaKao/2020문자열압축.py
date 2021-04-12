@@ -1,3 +1,4 @@
+#
 def solution(s):
     answer = 0
     if len(s) == 1:
