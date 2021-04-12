@@ -3,7 +3,7 @@ def solution(numbers, hand):
     left = 10
     right = 12
     for i in numbers:
-        if i == 1 or i == 4 or i == 7:
+        if i == 1 or i == 4 or i== 7:
             answer += 'L'
             left = i
         elif i == 3 or i == 6 or i == 9:
