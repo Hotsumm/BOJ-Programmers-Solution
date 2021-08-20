@@ -31,5 +31,3 @@ def solution(info, query):
             cnt = len(v)- bisect_left(v,score,lo=0,hi=len(v))
         answer.append(cnt)        
     return answer
- 
-
